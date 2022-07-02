@@ -1,0 +1,17 @@
+.chartsPie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+rect {
+    fill: rgb(29,29,29);
+    color: red;
+}
+
+text {
+    fill: rgb(117, 117, 117);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+}

@@ -1,0 +1,7 @@
+.mainTable {
+    background-color: rgb(29, 29, 29);
+    color: rgb(162,162,162)!important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+}

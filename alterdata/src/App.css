@@ -1,0 +1,41 @@
+
+
+.fullContent {
+    display: flex;
+    height: 100vh;
+    background-color: rgb(19, 19, 19);
+}
+
+.chartsContent {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 1%;
+}
+
+.statusContent {
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.totalContent {
+    height: 50%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardContent {
+    border-radius: 10px;
+    background-color: rgb(29,29,29);
+    height: 97%;
+    width: 98%;
+}
+
+.charts {
+    width: 46%;
+    max-height: 500px;
+}
