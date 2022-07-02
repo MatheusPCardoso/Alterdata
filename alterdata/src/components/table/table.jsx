@@ -10,7 +10,6 @@ function TableC(props) {
 
     useEffect(() => {
         api.get("/cliente").then(data => {
-            console.log(data.data)
             setState(data.data)
         }).catch(err => console.log(err))
     }, [])

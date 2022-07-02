@@ -61,7 +61,6 @@ export function BarCharts() {
                     }
                 })
                 setDataArray([...dataArray, contBar.banco, contBar.disco, contBar.base, contBar.naoEsperado])
-                console.log(dataArray)
             })
                 .catch(err => console.log(err))
         }
